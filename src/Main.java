@@ -13,7 +13,7 @@ public class Main extends JPanel implements ActionListener
     private final int SCREEN_HEIGHT = 600;
     private final int UNIT_SIZE = 25;
     private final int GAME_UNITS = (SCREEN_WIDTH * SCREEN_HEIGHT) / (UNIT_SIZE * UNIT_SIZE);
-    private final int DELAY = 75;
+    private final int DELAY = 100; //Отввечает за скорость змейки (Больше - медленнее / меньше - быстрее)
     private final int[] x = new int[GAME_UNITS];
     private final int[] y = new int[GAME_UNITS];
     private int b = 6;
